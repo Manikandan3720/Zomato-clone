@@ -233,6 +233,11 @@ footer > ul > li {
 
 @media (min-width: 768px) {
 
+  .view__more__p {
+    display: inline-block;
+    background-image: none;
+  }
+
   footer {
   margin-top: 3rem;
   display: flex;
@@ -329,9 +334,9 @@ footer > ul > li {
      width: 20rem;
    }
 
-  .container {
-     max-width: 90%;
-  }
+   .container {
+     max-width: 1140px;
+   }
 
   .explore__menu__lists {
     gap: 25px;
@@ -342,8 +347,8 @@ footer > ul > li {
    }
 
    .button__primary  {
-     padding: 15px 20px;
-     font-size: 20px;
+     padding: 1rem 2rem;
+     font-size: 1rem;
    }
 
    .hero__description {
@@ -351,10 +356,11 @@ footer > ul > li {
    }
 
    .hero__text {
-     font-size: 50px;
+     font-size: 3rem;
+     line-height: 1;
    }
 
    .explore__menu__text {
-     font-size: 48px;
+     font-size: 3rem;
    }
 }
